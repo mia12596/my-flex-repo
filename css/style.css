@@ -1,0 +1,21 @@
+.flex {
+    border: 2px dashed fuchsia;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 300px;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+
+}
+
+.box {
+    border: 1px solid rebeccapurple;
+    height: 100px;
+    width: 100px;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
